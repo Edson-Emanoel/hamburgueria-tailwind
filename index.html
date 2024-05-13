@@ -95,7 +95,7 @@
                             <button
                                 class="bg-gray-900 px-5 rounded add-to-cart-btn"
                                 data-name="Hamburguer Duplo"
-                                data-price="18.90"
+                                data-price="32.90"
                             >
                                 <i class="fa fa-cart-plus text-lg text-white"></i>
                             </button>
@@ -150,7 +150,7 @@
                             <p class="font-bold text-lg">R$ 30.00</p>
                             <button
                                 class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                                data-name="Hamburguer Smash"
+                                data-name="Hamburguer da Casa"
                                 data-price="30.00"
                             >
                                 <i class="fa fa-cart-plus text-lg text-white"></i>
@@ -186,11 +186,11 @@
                         <p class="font-bold">Coca Lata</p>
                         
                         <div class="flex items-center gap-2 justify-between mt-3">
-                            <p class="font-bold text-lg">R$ 06.00</p>
+                            <p class="font-bold text-lg">R$ 6.00</p>
                             <button
                                 class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                                data-name="Hamburguer Smash"
-                                data-price="18.90"
+                                data-name="Coca Lata"
+                                data-price="6"
                             >
                                 <i class="fa fa-cart-plus text-lg text-white"></i>
                             </button>
@@ -213,11 +213,11 @@
                         <p class="font-bold">Guaraná</p>
                         
                         <div class="flex items-center gap-2 justify-between mt-3">
-                            <p class="font-bold text-lg">R$ 06.00</p>
+                            <p class="font-bold text-lg">R$ 6.00</p>
                             <button
                                 class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                                data-name="Hamburguer Smash"
-                                data-price="18.90"
+                                data-name="Guarana"
+                                data-price="6"
                             >
                                 <i class="fa fa-cart-plus text-lg text-white"></i>
                             </button>
@@ -234,7 +234,10 @@
         <!-- END MENU -->
 
         <!-- MODAL CART -->
-        <div class="bg-black/60 w-full h-full fixed top-0 left-0 z-[99] items-center justify-center hidden">
+        <div
+            class="bg-black/60 w-full h-full fixed top-0 left-0 z-[99] items-center justify-center hidden"
+            id="cart-modal"
+        >
 
             <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
                 <h2 class="text-center font-bold text-2xl mb-2">Meu Carrinho</h2>
@@ -275,5 +278,7 @@
         </footer>
         <!-- End Button Cart Footer -->
 
+        <script src="./script.js"></script>
+        
     </body>
 </html>
